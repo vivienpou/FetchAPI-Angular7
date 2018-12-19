@@ -1,4 +1,4 @@
-# PROJECT GEEV API 
+# PROJECT ANGULAR-6 HTTP REQUEST FROM EXTERNAL API 
 This webpage do a request every minute to an API.
 For each request, it displays the time it happened, the delays for the http response from request, and how long minutes ago we did this request.
 
@@ -12,7 +12,7 @@ On the bottom of this, we generate rows inside a table for each http get request
 
 Hope you will enjoy!
 
-# Angular6Project
+## Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
