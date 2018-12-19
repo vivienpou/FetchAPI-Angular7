@@ -1,0 +1,12 @@
+{
+"/api": 
+    {
+    "target": "https://prod.geev.fr/alive",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+        "^/api": "/"
+    }
+    }
+} 
