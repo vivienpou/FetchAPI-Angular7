@@ -1,14 +1,14 @@
 # PROJECT GEEV API 
 This webpage do a request every minute to an API.
-Then, for each request, it displays the time it happened, the delays for the http response from request, and how long minutes ago we did this request.
+For each request, it displays the time it happened, the delays for the http response from request, and how long minutes ago we did this request.
 
-The page is composed,
+The page is composed four sections:
 On the top, we find a navbar with a searchbar, and the logo of Geev on the left side.
-On the right, a side bar with a link to the homepage.
-On the middle of the page, we have the title and then two window which displayed:
-    - the project of the webpage: do an web api livestatus
-    - the percentage of success http get request.
-On the bottom of this, we generate rows inside a table for each http get request.
+On the left, a side bar with a link to the homepage.
+On the middle of the page, we have the title and then two windows which displayed:
+    - the project of the webpage: a web api livestatus
+    - the percentage of success of http-get-requests.
+On the bottom of this, we generate rows inside a table for each http get request done.
 
 Hope you will enjoy!
 
