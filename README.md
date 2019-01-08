@@ -1,4 +1,4 @@
-# PROJECT ANGULAR-6 HTTP REQUEST FROM EXTERNAL API 
+# PROJECT ANGULAR-7 HTTP REQUEST FROM EXTERNAL API 
 This webpage do a request every minute to an API.
 For each request, it displays the time it happened, the delays for the http response from request, and how long minutes ago we did this request.
 
