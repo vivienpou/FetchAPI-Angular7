@@ -10,6 +10,7 @@ import { JumboModule } from './jumbo/jumbo.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FetchdataserviceService } from './fetchdataservice.service';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -19,13 +20,14 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     SidebareComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    JumboModule,
-    NoopAnimationsModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        JumboModule,
+        NoopAnimationsModule,
+        MatButtonModule,
+    ],
   providers: [FetchdataserviceService],
   bootstrap: [AppComponent]
 })
