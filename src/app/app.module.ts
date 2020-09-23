@@ -9,6 +9,7 @@ import { SidebareComponent } from './sidebare/sidebare.component';
 import { JumboModule } from './jumbo/jumbo.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FetchdataserviceService } from './fetchdataservice.service';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { FetchdataserviceService } from './fetchdataservice.service';
     AppRoutingModule,
     HttpClientModule,
     JumboModule,
+    NoopAnimationsModule,
   ],
   providers: [FetchdataserviceService],
   bootstrap: [AppComponent]
