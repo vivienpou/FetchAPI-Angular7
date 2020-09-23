@@ -18,7 +18,7 @@ export class CentralresultsComponent implements OnInit {
   constructor(private service: FetchdataserviceService) { }
 
     fetchGeev(){
-      let startFrom = new Date().getTime();         
+      let startFrom = new Date().getTime();
       this.service.getData().subscribe(response => {
         this.result = response;
       console.log(response)},
@@ -30,8 +30,8 @@ export class CentralresultsComponent implements OnInit {
         this.uptime= this.data.includes(null)?'< 100%':'100%';
         this.date = new Date().getTime();
       }
-    
-    ngOnInit() {  
+
+    ngOnInit() {
       this.fetchGeev();
       setInterval(this.fetchGeev.bind(this),60000);
       this.date = new Date().getTime();
